@@ -8,11 +8,11 @@ public class Signature {
 
     private final String signature;
 
-    private String hourMinuteSecond;
+    private String hourMinuteSecond = "";
 
-    private String year;
-    private String month;
-    private String day;
+    private String year = "";
+    private String month = "";
+    private String day = "";
 
     public Signature(String signature) {
         this.signature = signature;
@@ -21,7 +21,7 @@ public class Signature {
 
     @Override
     public String toString() {
-        return year + "::" + month + "::" + day + "::" + hourMinuteSecond + "::" + signature;
+        return year + "_" + month + "_" + day + "_" + hourMinuteSecond + "_" + signature;
     }
 
     private void setSignatureRecords() {
@@ -33,7 +33,10 @@ public class Signature {
     }
 
     private void setHourMinuteSecond(String dateStamp) {
-        hourMinuteSecond = dateStamp.split(Pattern.quote(" "))[3];
+        String[] hmsArray = dateStamp.split(Pattern.quote(" "))[3].split(Pattern.quote(":"));
+        for (int i = 0; i < hmsArray.length - 1; i++)
+            hourMinuteSecond = hourMinuteSecond.concat(hmsArray[i]).concat("_");
+        hourMinuteSecond = hourMinuteSecond.concat(hmsArray[hmsArray.length - 1]);
     }
 
     private void setDay(String dateStamp) {
