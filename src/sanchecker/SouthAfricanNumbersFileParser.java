@@ -13,7 +13,7 @@ import java.util.function.Function;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-public class SouthAfricanNumber {
+public class SouthAfricanNumbersFileParser {
 
     private static List<SouthAfricanNumberHandler> generateCheckers(File numbersFile) {
         FileHandler fileHandler = FileHandler.createFileHandler(numbersFile);
@@ -44,8 +44,8 @@ public class SouthAfricanNumber {
 
     private final  List<SouthAfricanNumberHandler> sanCheckers;
 
-    public SouthAfricanNumber(File numbersFile) {
-        this.sanCheckers = SouthAfricanNumber.generateCheckers(numbersFile);
+    public SouthAfricanNumbersFileParser(File numbersFile) {
+        this.sanCheckers = SouthAfricanNumbersFileParser.generateCheckers(numbersFile);
     }
 
     public void generateFiles() {
