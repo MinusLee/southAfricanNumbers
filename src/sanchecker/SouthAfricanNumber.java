@@ -54,7 +54,8 @@ public class SouthAfricanNumber {
         List<Pair<String, String>> wrongNumbers = getWrong();
 
         try {
-            Files.createDirectory(Path.of(new File("").getAbsolutePath() + "/outputnumbers"));
+            if (!Files.exists(Path.of(new File("").getAbsolutePath() + "/outputnumbers")))
+                Files.createDirectory(Path.of(new File("").getAbsolutePath() + "/outputnumbers"));
         } catch (IOException exception) {
             exception.printStackTrace();
             throw new RuntimeException("Directory creation failed");
