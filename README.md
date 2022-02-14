@@ -14,5 +14,7 @@
 
 ***
 
-<p> Per quanto riguarda la creazione della form, oltre a JavaScript e HTML si è deciso di utilizzare Bulma come CSS framework. Il risultato è direttamente visualizzabile recandosi all'interno della cartella </p>
+<p> Per quanto riguarda la creazione della form, oltre a JavaScript e HTML si è deciso di utilizzare Bulma come CSS framework. Il risultato è direttamente visualizzabile recandosi all'interno della cartella simple-html-page-sanumbers e aprire direttamente nel browser il file index.html. </p>
+
+![anteprima form]()
 
