@@ -27,3 +27,7 @@
 ![anteprima JUnit](https://github.com/MinusLee/southAfricanNumbers/blob/master/test.png "Classe Test con utilizzo del framework JUnit")
 
 <p> Per poter avviare l'applicazione è poi necessario installare le varie dipendenze elencate nel file SouthAfricanNumbers.iml. A tal proposito si consiglia di utlizzare l'IDE IntelliJ IDEA Community, e successivamente scaricare una versione adeguata del JDK (questa mini applicazione è stata sviluppata con la versione 15 del JDK) e di JUnit. Attraverso l'IDE IntelliJ tutti questi passaggi sono automaticamente inferiti e richiesti automaticamente. </p>
+
+***
+
+MinusLee e Simone Biondo sono la stessa persona, solo con 2 account distinti (uno universitario e uno normale)
