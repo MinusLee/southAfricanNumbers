@@ -6,3 +6,4 @@
 
 <p> Per la correzzione dei numeri si è deciso di utilizzare un test molto semplice facendo uso delle REGEX: </p>
 
+![coorectable function](https://github.com/MinusLee/southAfricanNumbers/blob/master/correctable.png)
