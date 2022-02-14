@@ -18,3 +18,6 @@
 
 ![anteprima form](https://github.com/MinusLee/southAfricanNumbers/blob/master/anteprima-form.png)
 
+***
+
+<p> Il programma scritto in Java, invece, si occupa di fare un seplice parsing del file csv dato in input. A tal proposito sono state utlizzate due classi particolari:  </p>
