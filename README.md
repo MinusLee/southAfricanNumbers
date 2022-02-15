@@ -20,7 +20,7 @@
 
 ***
 
-<p> Il programma scritto in Java, invece, si occupa di fare un semplice parsing del file csv dato in input. A tal proposito sono state utlizzate due classi particolari: SouthAfricanNumbersFileParser, per la gestione del parsing, e SouthAfricanNumberHandler, per una gestione delle stringhe del file <em>orientata agli oggetti</em>. Sarebbe stato opportuno inserire quest'ultima come nested class di SouthAfricanNumbersFileParser, ma si è preferito inserirle all'interno di uno stesso package (sanchecker) e dichiarare il costruttore di SouthAfricanNumberHandler package-private. </p>
+<p> Il programma scritto in Java, invece, si occupa di fare un semplice parsing del file csv dato in input. A tal proposito sono state utlizzate due classi particolari: SouthAfricanNumbersFileParser, per la gestione del parsing, e SouthAfricanNumberHandler, per una gestione delle stringhe del file <em>orientata agli oggetti</em>. Sarebbe stato opportuno inserire quest'ultima come nested class di SouthAfricanNumbersFileParser, ma si è preferito inserirle all'interno di uno stesso package (sanchecker) e dichiarare il costruttore di SouthAfricanNumberHandler package-private. A seguito dell'esecuzione una nuova cartella dal nome outputnumbers verrà creata all'interno della directory di lavoro corrente, e al suo interno verranno inseriti i file generati con un nome quanto più descrittivo attraverso la classe Signature creata. </p>
 
 <p> Come richiesto è stato poi implementata una semplice classe di testing attraverso il framework open-source JUnit: </p>
 
